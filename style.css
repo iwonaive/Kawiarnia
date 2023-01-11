@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Marck+Script&family=Shrikhand&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Marck Script", cursive;
+  background-color: rgb(255, 255, 241);
+}
+
+.h1 {
+  font-family: "Shrikhand", cursive;
+  font-size: 90px;
+  text-align: center;
+  padding-left: 400px;
+  line-height: 300px;
+  color: whitesmoke;
+  letter-spacing: 11px;
+  text-transform: uppercase;
+}
+
+.header {
+  background-image: url("https://cdn.pixabay.com/photo/2016/04/12/11/19/coffee-1324126_960_720.jpg");
+  background-size: cover;
+  background-position: center;
+  line-height: 100px;
+  height: 50vh;
+}
+
+.main {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.section {
+  width: 32%;
+  display: inline-block;
+  height: 400px;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.img {
+  width: 80%;
+  border-radius: 50%;
+  filter: grayscale(0.75);
+  cursor: pointer;
+  padding: 15px;
+}
+
+.img:hover {
+  filter: none;
+  transition: 1s;
+}
+
+.product-name {
+  font-size: 41px;
+  padding: 5px;
+  text-transform: capitalize;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.order-button {
+  font-family: "Shrikhand", cursive;
+  font-size: 19px;
+  background-color: bisque;
+  border: none;
+  border-bottom: 2px solid rgba(153, 81, 30);
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 25px;
+  text-transform: uppercase;
+}
+
+.order-button {
+  transition: 0.7s;
+}
+
+.order-button:hover {
+  background-color: rgba(216, 135, 73, 0.853);
+}
+
+footer {
+  margin-top: 50px;
+  background-color: rgba(153, 81, 30);
+  color: white;
+  font-size: 31px;
+  text-align: center;
+  line-height: 100px;
+  text-transform: capitalize;
+}
